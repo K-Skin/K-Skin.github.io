@@ -1,22 +1,20 @@
 {
-	"movies": [
+	"Random Facts": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Fact": "Kaiser, the hospital and insurance company, started as a submarine manufacturer in WW2.",
+			"Category": "Business"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Fact": "Dragonflies are some of the most successful predators in the animal kingdom, catching 90% of the prey they hunt." ,
+			"Category": "Bugs"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Fact": "The noise from snapping your fingers comes from the middle finger hitting the palm.",
+			"Category": "Anatomy"
+		},
+		{
+			"Fact": "San Francisco was the capital of California in 1861-1862, temporarily moving from Sacramento due to flooding.",
+			"Category": "Geography"
 		}
 	]
 }

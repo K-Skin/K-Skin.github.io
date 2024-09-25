@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Restaurants [
+  <!ELEMENT Restaurants (Restaurant+)>
+  <!ELEMENT Restaurant (id, name, cuisine, city, open, close)>
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT cuisine (#PCDATA)>
+  <!ELEMENT city (#PCDATA)>
+  <!ELEMENT open (#PCDATA)>
+  <!ELEMENT close (#PCDATA)>
+]>
+
+<Restaurants>
+    <Restaurant>
+        <id>0</id>
+        <name>Kabana</name>
+        <cuisine>Indian</cuisine>
+        <city>Berkeley</city>
+        <open>12pm</open>
+        <close>9pm</close>
+    </Restaurant>
+
+    <Restaurant>
+        <id>1</id>
+        <name>Cheeseboard</name>
+        <cuisine>Italian</cuisine>
+        <city>Berkeley</city>
+        <open>11am</open>
+        <close>8pm</close>
+    </Restaurant>
+
+    <Restaurant>
+        <id>2</id>
+        <name>The Butcher's Son</name>
+        <cuisine>American</cuisine>
+        <city>Berkeley</city>
+        <open>9am</open>
+        <close>3pm</close>
+    </Restaurant>
+</Restaurants>
